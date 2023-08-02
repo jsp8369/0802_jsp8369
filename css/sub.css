@@ -97,9 +97,9 @@
 #tablebox {width:900px; height:377px; color:#333333; margin:15px auto; }
 #table_title {width:900px; height:60px; font-size: 14px; color:#333333; margin:0 10px; text-align: center;}
 
-table { border:1px solid #818181; border-collapse: collapse;}
-#tablebox > table td:nth-child(1) {font-size:10px; width:300px;  background-color:#f2f2f2; padding:7px 10px; }
-#tablebox > table td {font-size:10px; width:600px;  padding:7px 10px;  border:1px solid #c2c2c2; }
+table { border:1px solid #818181; border-collapse: collapse; }
+#tablebox > table td:nth-child(1) {font-size:12px; width:300px;  background-color:#f2f2f2; vertical-align:middle; padding:7px 10px; }
+#tablebox > table td {font-size:12px; width:600px;  padding:7px 12px;  border:1px solid #c2c2c2; line-height: 12px; }
 
 #interior {width:900px; height:558px; margin:0 auto;}
 #interior > h2 {width:900px; height:70px; font-size: 20px; margin:0 0 30px; padding:30px 0 10px;  border-bottom:1px solid #eee;}
@@ -132,7 +132,7 @@ table { border:1px solid #818181; border-collapse: collapse;}
 #buy_product {font-size: 14px; margin: 8px 0 0; color:#9b9b9b;}
 
 #user_review {width:485px; height:50px; margin:12px 0 20px; }
-#user_review > p {font-size: 14px;}
+#user_review > p {font-size: 14px; line-height: 20px;}
 #five_stars {width:90px; height:20px; float:right; }
 #five_stars > img {width:13px; height:15px;}
 
